@@ -1,0 +1,19 @@
+
+The perror() function produces a message on standard error
+       describing the last error encountered during a call to a system
+       or library function.
+void perror(const char *s);
+
+The strerror() function returns a pointer to a string that
+       describes the error code passed in the argument errnum, possibly
+       using the LC_MESSAGES part of the current locale to select the
+       appropriate language.
+
+char *strerror(int errnum)
+
+The exit() function causes normal process termination and the
+       least significant byte of status (i.e., status & 0xFF) is
+       returned to the parent 
+The C library function void exit(int status) terminates the calling process immediately.  
+
+noreturn void exit(int status);
