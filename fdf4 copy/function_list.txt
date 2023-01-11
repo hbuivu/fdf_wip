@@ -1,0 +1,13 @@
+FUNCTIONS IN READ_MAPS
+libft:
+ft_strchr
+ft_split
+ft_atoi
+ft_lstaddfront
+ft_lstclear
+get_next_line
+
+utils
+read_color ->at some point write atoi_base to use for future projects
+release_lines
+ft_round
